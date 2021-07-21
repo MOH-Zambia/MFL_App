@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.moh.mfl.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.moh.mfl.ui.search.SearchFragment"
+        android:label="Search Facilities"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/nav_facilities_near"
+        android:name="com.moh.mfl.ui.facilitynearyou.FacilityNearYouFragment"
+        android:label="Facilities near you"
+        tools:layout="@layout/fragment_facility_near_you" />
+
+    <fragment
+        android:id="@+id/nav_facility_by_type"
+        android:name="com.moh.mfl.ui.facilitybytype.FacilityByTypeFragment"
+        android:label="Facilities by Type"
+        tools:layout="@layout/fragment_facility_by_type" />
+    <fragment
+        android:id="@+id/nav_facility_by_province"
+        android:name="com.moh.mfl.ui.facilitybyprovince.FacilityByProvinceFragment"
+        android:label="Facilities by Province"
+        tools:layout="@layout/fragment_facility_by_province" />
+</navigation>

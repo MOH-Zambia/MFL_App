@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="Widget.Theme.MFL.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+        <item name="exampleColor">@color/light_blue_400</item>
+    </style>
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/NegativeButtonStyle</item>
+    </style>
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/ForestGreen</item>
+    </style>
+    <style name="customerTransactions" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogSpotColor">@color/White</item>
+        <item name="DialogTitleText">Searching. Please wait....</item>
+        <item name="DialogSpotCount">8</item>
+        <item name="android:windowBackground">@color/ForestGreen</item>
+    </style>
+</resources>

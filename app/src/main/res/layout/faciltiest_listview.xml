@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardListview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:clickable="false"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardElevation="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:text="Facility"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="13sp" />
+
+
+            <TextView
+                android:id="@+id/province"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey"
+                android:text="Province"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey"
+                android:textSize="11sp"
+                tools:text="District" />
+            <TextView
+                android:id="@+id/constituency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey"
+                android:textSize="11sp"
+                tools:text="Constituency" />
+            <TextView
+                android:id="@+id/ownership"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey"
+                android:textSize="11sp"
+                tools:text="Ownership" />
+            <TextView
+                android:id="@+id/operation_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey"
+                android:textSize="11sp"
+                tools:text="Operation status" />
+            <TextView
+                android:id="@+id/facility_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey"
+                android:textSize="11sp"
+                tools:text="Facility type" />
+            <TextView
+                android:id="@+id/number_of_beds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey"
+                android:textSize="11sp"
+                tools:text="Number of beds" />
+            <TextView
+                android:id="@+id/number_of_nurses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey"
+                android:textSize="11sp"
+                tools:text="Number of nurses" />
+            <TextView
+                android:id="@+id/number_of_doctors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey"
+                android:textSize="11sp"
+                tools:text="Number of doctors" />
+            <TextView
+                android:id="@+id/address_line1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey"
+                android:textSize="11sp"
+                tools:text="Address" />
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey"
+                android:textSize="11sp"
+                tools:text="Phone" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+
